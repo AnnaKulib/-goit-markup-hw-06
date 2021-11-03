@@ -887,9 +887,10 @@ body {
   height: 18px;
 }
 
-/* ----------Форма---------- */
+/* ----------Форма в модальном окне---------- */
 
 .form-title {
+  display: block;
   margin-bottom: 12px;
 
   font-weight: 700;
@@ -901,7 +902,7 @@ body {
 }
 
 .form {
-  width: 448px;
+  width: 100%;
 
   margin-left: auto;
   margin-right: auto;
@@ -957,4 +958,8 @@ body {
 
 textarea {
   resize: none;
+}
+
+.form-button {
+  margin: 0 auto;
 }
